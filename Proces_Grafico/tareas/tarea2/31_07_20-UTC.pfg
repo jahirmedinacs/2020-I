@@ -1,0 +1,44 @@
+<h1 id="actividad-1">Actividad 1</h1>
+<p>Investigue los diversos tipos de hardware involucrados en un sistema de visión computacional, descríbalos, indique sus componentes, indique su ubicación dentro de los sistemas y subsistemas de un sistema de visión computacional, y compárelos.</p>
+<h2 id="desarrollo">Desarrollo</h2>
+<h3 id="camara-estereoscopica">Camara Estereoscopica</h3>
+<p>La Camara Estereoscopica es una camara compuesta por 2 (o mas sensores) espaciados por una distancia especifica, de forma que pueda simular o aproximar la vision humana.</p>
+<figure>
+<img src="./imgs/cam_stereo.jpg" alt="" /><figcaption>Camara Estereoscopica</figcaption>
+</figure>
+<h3 id="sensor-de-profundidad-tof">Sensor de Profundidad (ToF)</h3>
+<p>El sensor de profundidad utiliza un emisor de rayos infrarojos y detector de estos, calibrado para una frecuencia especifica , de forma que pueda medir el <em>tiempo de vuelo</em> (ToF) y asi calcular la distancia a la que se encuentra el objetivo a ser fotografiado o detectado.</p>
+<figure>
+<img src="./imgs/Tof.png" alt="" /><figcaption>Sensor de Profundidad</figcaption>
+</figure>
+<h3 id="lidar">LIDAR</h3>
+<p>El LIDAR son las siglas de <em>laser imaging, detection, and ranging</em> , en español <em>imagen laser, deteccion y medicion</em> , es una imagen construida al emitir muchos pulsos laser y medir su tiempo de retorno para construir una nube de puntos, mientras el sensor de profundidad usa un solo diodo infrarojo y un sensor para medir la distancia, el LIDAR utiliza lasers de alta precision para generar una nube de puntos y construir asi una superficie tridimensional.</p>
+<figure>
+<img src="./imgs/lidar.jpeg" alt="" /><figcaption>Superficies y Objetos detectados por un LIDAR</figcaption>
+</figure>
+<h3 id="camara-infraroja">Camara Infraroja</h3>
+<figure>
+<img src="./imgs/cam_infraroja.jpg" alt="" /><figcaption>Camara Infraroja</figcaption>
+</figure>
+<h3 id="radar-de-ultrasonido">Radar de Ultrasonido</h3>
+<figure>
+<img src="./imgs/ultrasonic.jpg" alt="" /><figcaption>Radar Ultrasonico</figcaption>
+</figure>
+<h3 id="camara-360">Camara 360</h3>
+<figure>
+<img src="./imgs/cam_360.jpg" alt="" /><figcaption>Camara con Campo Visual de 360 grados</figcaption>
+</figure>
+<h3 id="camara-monocromatica-de-alta-sensibilidad">Camara monocromatica de alta sensibilidad</h3>
+<figure>
+<img src="./imgs/monocrome.jpg" alt="" /><figcaption>Camara Monocromatica</figcaption>
+</figure>
+<h3 id="camara-de-campo-luminico">Camara de Campo Luminico</h3>
+<figure>
+<img src="./imgs/light_field.jpg" alt="" /><figcaption><em>light-field camera</em> o Camara de campo luminico</figcaption>
+</figure>
+<h1 id="actividad-2">Actividad 2</h1>
+<p>Investigue aplicaciones de visión computacional innovadoras y resaltantes, descríbalas, y resalte las ventajas, desventajas y describa donde se aplica o podría aplicar en nuestro país o región indicando los efectos que esto podría ocasionar.</p>
+<h1 id="actividad-3">Actividad 3</h1>
+<p>Investigue los diversos formatos de archivo de imagen y descríbalos resaltando sus ventajas y desventajas.</p>
+<h1 id="actividad-4">Actividad 4</h1>
+<p>Leer artículo Machine Learning in Computer Vision y elaborar un organizador visual.</p>
