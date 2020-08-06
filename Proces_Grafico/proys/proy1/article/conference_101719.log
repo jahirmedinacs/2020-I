@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.19)  5 AUG 2020 01:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.19)  5 AUG 2020 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **conference_101719.tex
 (./conference_101719.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-06-03> (./IEEEtran.cls
-Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+L3 programming layer <2020-06-03> (./IEEEtranUNT.cls
+Document Class: IEEEtranUNT 2020/08/05 V1.8bALT by Jahir Medina
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen134
@@ -21,7 +21,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
--- Using 8.5in x 11in (letter) paper.
+-- Using 210mm x 297mm (a4) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen137
 -- This is a 10 point document.
@@ -170,6 +170,12 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read3
+)
 (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip50
@@ -187,7 +193,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks23
 \ex@=\dimen159
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -217,21 +223,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count266
 \dspbrk@lvl=\count267
-\tag@help=\toks22
+\tag@help=\toks24
 \row@=\count268
 \column@=\count269
 \maxfields@=\count270
-\andhelp@=\toks23
+\andhelp@=\toks25
 \eqnshift@=\dimen162
 \alignsep@=\dimen163
 \tagshift@=\dimen164
 \tagwidth@=\dimen165
 \totwidth@=\dimen166
 \lineht@=\dimen167
-\@envbody=\toks24
+\@envbody=\toks26
 \multlinegap=\skip53
 \multlinetaggap=\skip54
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -299,11 +305,31 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 27.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 28.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count275
@@ -313,24 +339,24 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
--- Lines per column: 56 (exact).
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+-- Lines per column: 58 (exact).
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count276
@@ -338,12 +364,12 @@ LaTeX Info: Redefining \% on input line 20.
 \scratchbox=\box50
 \nofMPsegments=\count277
 \nofMParguments=\count278
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count279
 \MPscratchDim=\dimen171
 \MPnumerator=\count280
 \makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks27
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -353,65 +379,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
-
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
-
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 52.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-28.
- (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<fig1.png, id=12, 82.1469pt x 71.5473pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 233.
-(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-44.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
+4.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
+LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <11> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 109
+.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 109
+.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+20.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 22.41992pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<fig1.png, id=14, 82.1469pt x 71.5473pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 225.
+(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
- [2] (./conference_101719.bbl)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
+ [2 <./fig1.png (PNG copy)>] (./conference_101719.bbl) [3
 
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[3 <./fig1.png (PNG copy)>] (./conference_101719.aux
+] (./conference_101719.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 ) ) 
 Here is how much of TeX's memory you used:
- 6185 strings out of 480478
- 86792 string characters out of 5905959
- 371480 words of memory out of 5000000
- 22133 multiletter control sequences out of 15000+600000
- 580272 words of font info for 117 fonts, out of 8000000 for 9000
+ 6318 strings out of 480478
+ 88399 string characters out of 5905959
+ 373582 words of memory out of 5000000
+ 22260 multiletter control sequences out of 15000+600000
+ 575660 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,11n,37p,806b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,45p,827b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -421,7 +445,7 @@ t/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/tim
 es/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (3 pages, 120833 bytes).
+Output written on conference_101719.pdf (3 pages, 120474 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
