@@ -22,11 +22,11 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE,LO]{Universidad Nacional de Trujillo.\
+\fancyhead[L,LO]{Universidad Nacional de Trujillo.\
 	Medina Jahir, Pastor Christian, Salinas Jhosep, Sifuentes Víctor.\
 	Seguridad y Comunicaciones}
-\fancyhead[RE,RO]{\thepage}
-\fancyfoot[LE,LO]{Tópicos Especiales en Procesamiento Gráfico, \the\year}
+\fancyhead[R,RO]{\thepage}
+\fancyfoot[L,LO]{Tópicos Especiales en Procesamiento Gráfico, \the\year}
 \renewcommand{\headrulewidth}{0pt}
 
 
@@ -67,7 +67,7 @@ Escribir Luego
 
 \section{La vigilancia automatizada}
 
-\subsection{Década de los 90's}
+\subsection{En los 90's}
 
 Desde que se empezó a usar de forma comercial tecnologías de procesamiento de imágenes para detectar movimiento en
 grabaciones tomadas por Cámaras de Circuito Cerrado \textit{(CCTV , por sus siglas en ingles)} en los a\~nos 80's,
@@ -90,30 +90,99 @@ de costos.
 En todo este escenario de crecimiento tecnológico, no solo de hardware , sino también de software y sus respectivos algoritmos, es que
 comienza a surgir la idea de extender estas aplicaciones a campos mas delicados: Detección de crímenes y Verificación Biometrica.
 
-\subsection{Década de los 2000's}
+\subsection{Hardware y Matemática}
+
+Desde comienzos de los 2000's ya se comenzaba a visualizar el verdadero efecto de la Internet: Niveles inauditos de información, organizada o desorganizada, pero información. No solo aumentaba la información disponible, sino que el hardware especializado se comenzaba a hacer mas accesible: Tarjetas para procesamiento grafico, Tarjetas de calculos para fisicas simuladas y microprocesadores con un conjunto de instrucciones mas amplio y eficiente.
+
+Este abaratamiento (no solo abaratamiento sino tambien un aumento en la calidad ofrecidad en un determinado rango de precios \citep{Chaki2010}) y masificación del hardware sumado con una revolución del software como servicio fue fundamental para implementaciones "artesanales" de sistemas de vigilancia \citep{s2020iot}.
+
+Aun mas importante y critico para esta etapa de transición es la revolucion de las Redes Neuronales, no su descubrimiento pero si su uso extensivo. Evolucionando desde simples clasificadores (perceptron clasico) hasta sistemas capaces de analizar contextos y componer una escena con multiples videos facilitando el análisis forense en el caso de ataques terroristas \citep{alex2020multimodal}.
+
+\subsection{Actualizaciones Necesarias}
+
+Si bien los sistemas de circuito cerrado han existido por muchísimo tiempo entre nosotros, es comun que un punto de falla se encuentre en el componente humano. El tedio de repetir la misma tarea , por horas, dias , hasta semanas de supervisar el contenido en vídeo mostrado en los monitores genera fatiga, y por tanto se reduce la atención al detalle; finalizando en la falla mas obvia: la omision de contenido critico o de relevancia para la seguridad, monitoreo o control.
 
 
+La visión computacional se puede usar para automatizar tareas como : detección de movimiento, cambios en la condición del video (Si existe señal o no), segmentación de información en tiempo real y mas aplicaciones \citep{Potgieter2012}, una situacion interesante que se origina de esta automatizacion es que, de darse una implementacion unilateral.
 
-\section{El Auge de las Redes Neuronales}
+El abaratamiento del hardware, y la computación como servicio , como se mencionaba; facilita la creación de sistemas artesanales de vigilancia, estos sistemas hacen uso de la internet para usar servicios de terceros y asi solo preocuparse por la instalación del hardware requerido \citep{Othman2017}, de forma que aun que el usuario no tenga conocimientos avanzados puede hacer uso de sistemas que se encuentra a la par de los usados por bancos; esto es posible por que estos terceros proveedores no solo ofrecen servicios a usuarios finales sino tambien a grandes corporaciones.
 
-\subsection{Las Redes Neuronales, excelentes Clasificadores}
-\subsection{Las Redes Convencionales, excelentes Extractores de Características}
+En el area de la detección de movimiento se puede observar actualizaciones tan avanzadas como el empleo de algoritmos cuánticos \citep{Yu_2019} para optimizar la paralelizacion de los mismos, si bien estos metodos requieren de un hardware especializado, la existencia de propuestas con esta ambicion hacen que no solo la criptografia cuantica represente un punto de inflexion para la seguridad en el futuro, sino tambien para la vigilancia.
 
+En el area de la segmetancion y/o extracción de información se tiene una actualizacion importante en lo que respecta la vigilancia de carreteras: mayor confiabilidad en la deteccion de placas e identificación de vehiculos.
 
-\section{Firma Biometrica y Procesamiento Avanzado de Señales}
+Si bien la extracción de información de una placa de transito puede parecer sencillo, en la vida real implica un 80\% pre-procesamiento y un 20\% procesamiento, siendo el primer 80\% la parte mas complicada puesto que la realidad no solo se genera ruido en las imagenes , sino tambien perdida de informacion. Tener algoritmos unificados, capaces de realizar ambos en una sola ejecución es esencial para aumentar no solo la precisión sino también la eficiencia \citep{Quiros2015}. Si para una placa de transito el trabajo puede resultar complicado, para la identificacion de vehiculos dadas ciertas características puede resultar en una tarea inacable (sino se automatiza, se necesatira de operarios humanos), sin embargo si extendemos el uso las redes neuronales profundas y su capacidad para detectar patrones, esta aplicacion solo quedaria limitada por la cantidad y calidad de informacion disponible \citep{qian2019stripebased}.
 
-\subsection{DeepFake y mas formas de suplantación de identidad}
+Por otra parte en esta área se avanzo a niveles nunca esperados en el poco tiempo que se han ido dado estos cambios, en abril del presenta año se presenta un analizador forense para vídeos des diferentes ángulos y perspectivas con el objetivo de investigar escenarios posteriores a ataques terroristas \citep{alex2020multimodal}. Una situación a destacar es que para analizar conjuntos de vídeos es necesario considerar que se debe reconstruir escenarios tridimensionales y los objetos en ellos, un problema que ya había sido abordado con anterioridad \citep{Sumi}.
 
-Con el avance de la capacidad de hardware, se volvió mas fácil implementar arquitecturas extremas. 
-Estas arquitecturas capaces de procesar \textit{batchs} de mas 10gb empezaron a ser prometedoras en el
-ambito de la creacion de informacion artificial, analisis de patrones mas complejos y deteccion de 
-caracterizticas jamas pensadas.
+Algo importante a notar es que si bien la unificación de los avances en las areas de deteccion de movimiento, analizadores semánticos (de contexto), reconstruccion de escenarios y segmentacion pueden resultar muy útiles para la vigilancia con miras a evitar delitos o ubicar a los culpables de uno, tambien puede servir para evitar accidentes \citep{Yoshimoto2004}, ya que estas camaras que son usadas para vigilancia no solo se encuentra encendidas durante la noche, sino durante el dia por igual. Es por esto que de acoplar un sistema con capacidad de detectar los riesgos y peligros en el espacio de trabajo (o espacio donde se encuentren las cámaras), se lograría aumentar la seguridad de los individuos que usan dichas instalaciones \citep{Zubal2016}.
 
-\subsection{Espionaje de Vanguardia}
+\section{Metadatos Humanos}
 
-\section{Conclusiones}
+\subsection{Firma Biometrica}
 
-\section{Apéndice}
+Es indiscutible que el aumento del hardware multimedia ha creado un abanico de información que puede usarse para identificar a una persona, esto no solo implica imágenes del rostro de una persona, sino tambien de su huella dactilar , talla, peso, firma y patrones de voz \citep{10.1145/3287560.3287568}.
+
+Es importante recordar que los escaners de huella dactilar son un tipo de cámara, capaz de tomar una foto con alta precisión de la huella dactilar. Es por esto que cualquier procesamiento asociado a la deteccion de huellas dactilares sera con imagenes \citep{spinoulas2020multimodal}. Si bien se pueden acoplar mas sensores , como uno de presion o temperatura para reforzar la data asociada a una captura de huella digital, esto no es dable en muchos escenarios, pues la idea detras de este sistema de identificacion es la conveniencia y su reducido costo de implementacion en la actualidad.
+
+En el presente año se ha presentado multiples trabajos de investigación que buscan mejorar la calidad de deteccion y a su vez reducir la posibilidad de ataques hacia los lectores de huella digital, un enfoque es añadir redundancias modificando el angulo de la camara y luz dentro del lector \citep{spinoulas2020multimodal} o el empleo de metodos multitarea en una red neuronal profunda para detectar huellas dactilares modificadas, ubicando las zonas de interes \citep{giudice2020single}.
+
+Ahora, analicemos que sucede con una firma biometrica directa : una fotografia de nuestro rostro, esta informacion de caracter delicado es actualmente de facil acceso; sea por las redes sociales o por que cualquier persona con celular tambien es dueña de una camara, obtener una fotografia de nosotros nunca fue tan fácil.
+
+La deteccion de rostros, que forma parte la visión computacional \citep{Pezoa2017} hay llegado a un punto de automatizacion que gobiernos (como el chino o el norteamericano) usan para el seguimiento de personas de interés. Incluso nos encontramos en un punto donde se puede monitorear la asistencia de alumnos a las clase \citep{Harikrishnan2019}, si bien esto puede resultar ilegal en cierta medida \citep{Cote2017} , no es algo que una carta de concentimiento no pueda corregir.
+
+La facilidad de contratar un servicio de terceros para implementar sistemas de vision computacional nos ha llevado a un punto donde no solo podemos implementar sistemas de seguridad que detectan movimiento o peligros, sino tambien rostros \citep{Aydin2017}; si bien esto puede usar como una extension del caso previe y marcar la asistencia al trabajo del personal, puede usarse tambien para identificar intrusos y obtener datos del individuo en cuestion en tiempo real.
+
+En el caso que un atacante comprometa la integridad del sistema encargado de la obtención de imagenes, tambien existen tecnicas capases de detectar videos alterados para no revelar el rostro, si bien esto puede usarse como una medida antagónica a los famosos \textit{deep fake}, en el caso particular del software \textit{VideoForensicsHQ} \citep{fox2020videoforensicshq}, se usa para el escrutinio forense. Un ataque similar es alterar completamente la grabacion para incluir rostros creados o alterados de tal manera que, aun que reconocibles , no sean de la persona original; técnicas para su deteccion y correccion han sido propuestas en los ultimos años, sin embargo el uso de redes neuronales con memoria de corto plazo con capacidad de generalización fue propuesto recien en el presente año \citep{aneja2020generalized}.
+
+Aquí es importante aclarar que métodos que buscan generalizar sistemas de detección se enfrentan a un tipo de problema bastante critico: la similaridad visual, esto causa que por mas preciso que sea el metodo de detección , correccion o segmentacion, se empiece a entregar falsos positivos. Para situaciones cotidianas esto es aceptable, pero cuando se intenta buscar el culpable de algun crime o identificar sospechosos, uno no se puede permitir esto; por consiguiente se debe agregar un componente crucial: El contexto. El contexto, puede ser desde la fecha hasta , como explora el paper \textit{Detecting Suspicious Behavior: How to Deal with Visual Similarity through Neural Networks }, las conductas sospechas de las personas \citep{martnezmascorro2020detecting}.
+
+Concluyendo este topico, debemos mencionar a las firmas escritas, tan antiguas como la tinta, si bien su uso actualmente se ha reduciendo gracias a digitalizacion de los servicios (de casi todos los rubros, incluso salud) y un comercio \textit{cash-less}, no se puede bajar la guardia, es por esto que los sistemas de validacion / autenticacion de firmas escritas son necesarios, si estos son emparejados con un cifrado asimetrico o firma digital , se tiene un sistema de autenticacion robusto \citep{alam2016suis}.
+
+\subsection{DeepFake}
+
+Con el avance de la capacidad de hardware, se volvió mas fácil implementar arquitecturas (de redes neuronales) mas 'extremas'. Estas arquitecturas capaces de procesar \textit{batchs} (bloques de datos) de mas 10gb empezaron a ser prometedoras en el ambito de la creación de información artificial, análisis de patrones mas complejos y detección de características jamas pensadas. Sin embargo, se ha convertido no solo en un tira y afloja entre que tan bien podemos falsear imagenes o videos y que tan bien podemos identificar un video falso.
+Esto a convertido al \textit{deep fake} en una amenaza a la seguridad y libertad de expresión (se puede destruir la imagen de alguien haciendo parecer dio una opinión o hizo algo malo) \citep{Lyu2020}. Sin embargo, nuestro tema es enfocarlo desde como evitar que un deep fake amenze nuestra seguridad y no como crearlo, por lo que debemos saber primero , que tipo de mecanismos se usan en la actualidad para mejorar la calidad de un deep fake.
+
+Cuando se construye un \textit{deep fake}, se crea informacion, usando una imagen o video original se busca construir o simular acciones que no se encuentran en los datos originales, esto genera artefactos en la imagen, ademas del ruido de toda la vida, es por esto que se construyen redes neuronales profundas encargadas solo de eliminar estos defectos haciendolo mas indetectable \citep{huang2020fakepolisher}.
+
+Sin embargo por el lado de la detección de los \textit{deep fake}, se tiene métodos que usan redes neuronales recurrentes capaces de mejorar la detección mientras veces analise los mismos datos \citep{8639163}, metodos mas demandantes pero mas robustos que emplean en análisis de datos en su espacio original (espacial y temporal) y no en el de frecuencias mediante la aplicacion de redes convencionales \citep{lima2020deepfake} o metodos mas ortodoxos basados en técnicas de aprendizaje de maquina \citep{Maksutov2020}.
+
+\section{Telecomunicacion y Espionaje}
+
+Esta sección sera una muy difusa, pues aun que ciertas aplicaciones puede señirse solo al ambito de las comunicaciones, tambien pueden ser extendidas al área de la seguridad informática, es por esto que se ira detallando los alcances estas aplicaciones y los resultados que ofrecen.
+
+\subsection{Comunicación inter-personal}
+
+La comunicación entre individuos de una misma especie es crucial, si dicha especia es una del tipo social, sabiendo que los seres humanos una de estas especies, tener miembros de nuestra sociedad con impedimentos de habla o escucha nos genera una barrera de comunicación, y es aqui donde la vision computacional nos ayuda. Crear un sistema de traduccion entre personas con dichos problemas que empleen el leguaje de señas \citep{Bohra2019} es una aplicacion que ido progresando mas y mas conforme va pasando los años, se ha llegado a conseguir no solo un sistema de traduccion , sino un sistema de comunicacion en ambos sentidos en tiempo real \citep{Bohra2019}.
+
+A esta situacion de impedimentos fisico se suma un impedimento social : la falta de comunicacion con nuestros iguales, las causas de esta evacion de la comunicacion con otras personas, reduciendolo a una comunicacion con ciertas personas se suele notar cuando alguien llega a un establecimiento publico y es incapaz de pedir indicaciones, solo atina a quedarse en silencio y seguir al grupo. Si la tecnologia nos empieza a crear un distanciamento no voluntario, debemos usarla tambien para notar estos cambios y evitarlos \citep{Bohra2019}.
+
+\subsection{Telecomunicaciones}
+
+La comprension de archivos multimedia es algo fundamental a la hora de transmitir informacion, si bien en muchos casos esto implica comprimir el video omitiendo fotogramas estaticos, tambien puede implicar la comprension sin perdida buscando que la gran mayoria de datos llegen tal y como fueron capturados \citep{Porat2010}, aun que claro; esta situación es algo que parece ser mas concerniente al area de telecomunicaciones que de vision computacional. Sim embargo debemos recordar que las imagenes son una forma de informacion, y como tal pueden ser convertidos al espacio de frecuencias \citep{Phonsri2015} y manejarse como una señal de toda la vida.
+
+Sabiendo lo anterior, es posible mejorar señales de radio o en forma general, señales portadoras de información. Si obtenemos un espectrograma de una señal, al ser este un proceso bidireccional, es posible mejorar la calidad del histograma como imagen y asi reducir el ruido en la señal de la cual fue creada \citep{Phonsri2015}.
+
+Si extendemos esta capacidad para limpiar señales, podemos implementar metodos de correccion de errores, de forma que se pueda reconstruir la información faltante o correguir la que existe,  para esto, como siempre se debe tratar a las señal original como si de una imagen se tratase, ya que una imagen es una señal y una señal puede ser una imagen \citep{tian2020applying}.
+
+\subsection{Internet}
+
+Si la internet es la red de redes, y una red usa señales para comunicarse, es facil pensar otras aplicaciones, una de ellas puede ser, analisar el trafico de red durante un tiempo determinado, construir una imagen que represente de forma unica este periodo, asi de forma sucesiva hasta construir los datos necesarios para que al analizar estas imagenes, se pueda construir un sistema capaz de identificar cuando esta sucediendo algun evento; digamos por ejemplo un ataque de denegacion de servicio \cite{Tan2015}.
+
+Existen metodos para limitar el trafico de red, asi evitando los ataques \textit{DoS} (denegacion de servicio), sin embargo un metodo ampliamente usado para evitar el ataque mediante \textit{robots}, es el empleo de un \textit{CAPTCHA}. Este metodo usado para evitar ataques automatizados pone aprueba la percepción de la maquina, pidiendole identifique caracteres en una escena bastante complicada, pudiendo solo ser resuelta por humanos. Una tentativa para automatizar incluso este obstaculo disenado solo las maquinas es una segementacion basada en caracteres conectados, de forma que se pueda inferir el texto (de letras y/o numeros) se encuentra ofuscado en la imagen de prueba \citep{Hussain2016}.
+
+\subsection{Espionaje y Privacidad}
+
+La estenografía es la acción de esconder algo a simple vista, esto puede usarse con fines de seguridad (validacion) o con fines de comunicación entre personas de interes (tal vez espias) \citep{Tran2002}. Sin embargo un caso especial de lo que se podria llamar estenografia es un cifrado homomorfico, que es cuando teniendo un conjunto de datos, este se transforma en otro, con las mismas propiedades, ahora imaginemos que obtemos una fotografia, si ciframos esta imagen de tal manera que transformado al espacio de frecuencias, luzca identica a otra imagen, se podria usar esta segunda imagen como portador de informacion. Dicha informacion podria ser desde datos que deseemos adicionar hasta la misma identidad de quien aparece en la imagen \citep{bian2020ensei}.
+
+Pasemos a hablar de la generacion de escenarios en 3D , digamos que un espia intenta conocer el mapa tridimensional de un lugar de interes; podria el comenzar por buscar lo planos, o tal vez por infiltrarse en la casa y obtener muchas fotografias del mismo. Sin embargo, gracias a los avances de la vision computacional es posible recrear un entorno 3D usando microfonos bidireccionales, microfonos que podrian ser nuestros propios oidos o un dispositivo en ellos. La problematica es que al usar un radar, este necesita de un detector direccional, sin embargo con un nuevo enfoque de reconstrucción inteligente es posible que con un emisor y dos receptores se pueda reconstruir un entorno tridimensional, simplemente con calculos de tiempo e inferencias asistidas por un modelo pre-entrenado \citep{christensen2019batvision}.
+
+Un enfoque similar, donde se reconstruye informacion es el empleado por un equipo del MIT, orientado a extrar sonido de algun ambiente inaccesible, usando solo una filmacion del lugar. Esto es posible al medir las variaciones en la iluminacion y movimiento de algun objeto referencial, digamos una bolsa de papas fritas, al existir un cambio en la presion del air en el interior del lugar de interes, este cambio movera ligeramente la superficie de la bolsa, al tener registrado estas variaciones es posible,  reconstruir un audio, que aun que con fallas, es informacion nueva de utilidad para los fines que sean convenientes \citep{Davis2014VisualMic}.
+
+%\section{Conclusiones}
+
+%\section{Apéndice}
 
 
 \bibliography{bibfile}

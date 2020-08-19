@@ -1,0 +1,452 @@
+% Encoding: UTF-8
+
+%
+%
+%
+@misc{martnezmascorro2020detecting,
+	title={Detecting Suspicious Behavior: How to Deal with Visual Similarity through Neural Networks},
+	author={Guillermo A. Martínez-Mascorro and José C. Ortiz-Bayliss and Hugo Terashima-Marín},
+	year={2020},
+	eprint={2007.15235},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{tian2020applying,
+	title={Applying Deep-Learning-Based Computer Vision to Wireless Communications: Methodologies, Opportunities, and Challenges},
+	author={Yu Tian and Gaofeng Pan and Mohamed-Slim Alouini},
+	year={2020},
+	eprint={2006.05782},
+	archivePrefix={arXiv},
+	primaryClass={eess.SP}
+}
+@misc{alex2020multimodal,
+	title={Multi-Modal Video Forensic Platform for Investigating Post-Terrorist Attack Scenarios},
+	author={Alexander Schindler and Andrew Lindley and Anahid Jalali and Martin Boyer and Sergiu Gordea and Ross King},
+	year={2020},
+	eprint={2004.01023},
+	archivePrefix={arXiv},
+	primaryClass={cs.MM}
+}
+@misc{bian2020ensei,
+	title={ENSEI: Efficient Secure Inference via Frequency-Domain Homomorphic Convolution for Privacy-Preserving Visual Recognition},
+	author={Song Bian and Tianchen Wang and Masayuki Hiromoto and Yiyu Shi and Takashi Sato},
+	year={2020},
+	eprint={2003.05328},
+	archivePrefix={arXiv},
+	primaryClass={cs.CR}
+}
+@misc{s2020iot,
+	title={An IoT based Active Building Surveillance System using Raspberry Pi and NodeMCU},
+	author={Sruthy. S and S. Yamuna and Sudhish N. George},
+	year={2020},
+	eprint={2001.11340},
+	archivePrefix={arXiv},
+	primaryClass={eess.SP}
+}
+@misc{qian2019stripebased,
+	title={Stripe-based and Attribute-aware Network: A Two-Branch Deep Model for Vehicle Re-identification},
+	author={Jingjing Qian and Wei Jiang and Hao Luo and Hongyan Yu},
+	year={2019},
+	eprint={1910.05549},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{chen2019understanding,
+	title={Understanding the efficacy, reliability and resiliency of computer vision techniques for malware detection and future research directions},
+	author={Li Chen},
+	year={2019},
+	eprint={1904.10504},
+	archivePrefix={arXiv},
+	primaryClass={cs.CR}
+}
+@article{Yu_2019,
+	title={Quantum algorithm for visual tracking},
+	volume={99},
+	ISSN={2469-9934},
+	url={http://dx.doi.org/10.1103/PhysRevA.99.022301},
+	DOI={10.1103/physreva.99.022301},
+	number={2},
+	journal={Physical Review A},
+	publisher={American Physical Society (APS)},
+	author={Yu, Chao-Hua and Gao, Fei and Liu, Chenghuan and Huynh, Du and Reynolds, Mark and Wang, Jingbo},
+	year={2019},
+	month={Feb}
+}
+@misc{alam2016suis,
+	title={SUIS: An Online Graphical Signature-Based User Identification System},
+	author={Shahid Alam},
+	year={2016},
+	eprint={1605.09034},
+	archivePrefix={arXiv},
+	primaryClass={cs.CR}
+}
+@misc{giudice2020single,
+	title={Single architecture and multiple task deep neural network for altered fingerprint analysis},
+	author={Oliver Giudice and Mattia Litrico and Sebastiano Battiato},
+	year={2020},
+	eprint={2007.04931},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{lima2020deepfake,
+	title={Deepfake Detection using Spatiotemporal Convolutional Networks},
+	author={Oscar de Lima and Sean Franklin and Shreshtha Basu and Blake Karwoski and Annet George},
+	year={2020},
+	eprint={2006.14749},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{aneja2020generalized,
+	title={Generalized Zero and Few-Shot Transfer for Facial Forgery Detection},
+	author={Shivangi Aneja and Matthias Nießner},
+	year={2020},
+	eprint={2006.11863},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{huang2020fakepolisher,
+	title={FakePolisher: Making DeepFakes More Detection-Evasive by Shallow Reconstruction},
+	author={Yihao Huang and Felix Juefei-Xu and Run Wang and Qing Guo and Lei Ma and Xiaofei Xie and Jianwen Li and Weikai Miao and Yang Liu and Geguang Pu},
+	year={2020},
+	eprint={2006.07533},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{spinoulas2020multimodal,
+	title={Multi-Modal Fingerprint Presentation Attack Detection: Evaluation On A New Dataset},
+	author={Leonidas Spinoulas and Hengameh Mirzaalian and Mohamed Hussein and Wael AbdAlmageed},
+	year={2020},
+	eprint={2006.07498},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+@misc{fox2020videoforensicshq,
+	title={VideoForensicsHQ: Detecting High-quality Manipulated Face Videos},
+	author={Gereon Fox and Wentao Liu and Hyeongwoo Kim and Hans-Peter Seidel and Mohamed Elgharib and Christian Theobalt},
+	year={2020},
+	eprint={2005.10360},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV}
+}
+%
+%
+%
+@inproceedings{10.1145/3287560.3287568,
+	author = {Goldenfein, Jake},
+	title = {The Profiling Potential of Computer Vision and the Challenge of Computational Empiricism},
+	year = {2019},
+	isbn = {9781450361255},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3287560.3287568},
+	doi = {10.1145/3287560.3287568},
+	booktitle = {Proceedings of the Conference on Fairness, Accountability, and Transparency},
+	pages = {110–119},
+	numpages = {10},
+	keywords = {Biometrics, Data Science, Computational Empiricism, Computer Vision, Law and Policy},
+	location = {Atlanta, GA, USA},
+	series = {FAT* ’19}
+}
+@inproceedings{10.1145/3325425.3329941,
+	author = {Shen, Wen-Hsuan},
+	title = {Vehicular Visible Light Communication with Dynamic Vision Sensor},
+	year = {2019},
+	isbn = {9781450367769},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3325425.3329941},
+	doi = {10.1145/3325425.3329941},
+	booktitle = {The ACM MobiSys 2019 on Rising Stars Forum},
+	pages = {25–30},
+	numpages = {6},
+	keywords = {visible light communication, vehicular communication},
+	location = {Seoul, Republic of Korea},
+	series = {RisingStarsForum’19}
+}
+%
+%
+%
+@inproceedings{Othman2017,
+	doi = {10.1109/cicn.2017.8319366},
+	url = {https://doi.org/10.1109/cicn.2017.8319366},
+	year = {2017},
+	month = sep,
+	publisher = {{IEEE}},
+	author = {Nashwan Adnan Othman and Ilhan Aydin},
+	title = {A new {IoT} combined body detection of people by using computer vision for security application},
+	booktitle = {2017 9th International Conference on Computational Intelligence and Communication Networks ({CICN})}
+}
+@inproceedings{Maksutov2020,
+	doi = {10.1109/eiconrus49466.2020.9039057},
+	url = {https://doi.org/10.1109/eiconrus49466.2020.9039057},
+	year = {2020},
+	month = jan,
+	publisher = {{IEEE}},
+	author = {Artem A. Maksutov and Viacheslav O. Morozov and Aleksander A. Lavrenov and Alexander S. Smirnov},
+	title = {Methods of Deepfake Detection Based on Machine Learning},
+	booktitle = {2020 {IEEE} Conference of Russian Young Researchers in Electrical and Electronic Engineering ({EIConRus})}
+}
+@inproceedings{Khare2015,
+	doi = {10.1109/icspcom.2015.7150694},
+	url = {https://doi.org/10.1109/icspcom.2015.7150694},
+	year = {2015},
+	month = mar,
+	publisher = {{IEEE}},
+	author = {Shivam Khare},
+	title = {Finger gesture and pattern recognition based device security system},
+	booktitle = {2015 International Conference on Signal Processing and Communication ({ICSC})}
+}
+
+@InProceedings{Tran2002,
+  author    = {N. Tran},
+  booktitle = {Proceedings 15th {IEEE} Computer Security Foundations Workshop. {CSFW}-15},
+  title     = {Hiding functions and computational security of image watermarking systems},
+  year      = {2002},
+  publisher = {{IEEE} Comput. Soc},
+  doi       = {10.1109/csfw.2002.1021823},
+  url       = {https://doi.org/10.1109/csfw.2002.1021823},
+}
+@article{Papathomas1997,
+	doi = {10.1109/3477.584950},
+	url = {https://doi.org/10.1109/3477.584950},
+	year = {1997},
+	month = jun,
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {27},
+	number = {3},
+	pages = {428--440},
+	author = {T.V. Papathomas and R.S. Kashi and A. Gorea},
+	title = {A human vision based computational model for chromatic texture segregation},
+	journal = {{IEEE} Transactions on Systems,  Man and Cybernetics,  Part B (Cybernetics)}
+}
+@inproceedings{Yoshimoto2004,
+	doi = {10.1109/icpr.2004.1334294},
+	url = {https://doi.org/10.1109/icpr.2004.1334294},
+	year = {2004},
+	publisher = {{IEEE}},
+	author = {H. Yoshimoto and N. Date and D. Arita and R. Taniguchi},
+	title = {Confidence-driven architecture for real-time vision processing and its application to efficient vision-based human motion sensing},
+	booktitle = {Proceedings of the 17th International Conference on Pattern Recognition,  2004. {ICPR} 2004.}
+}
+
+@InProceedings{Sumi,
+  author    = {Y. Sumi and Y. Ishiyama and F. Tomita},
+  booktitle = {Object recognition supported by user interaction for service robots},
+  title     = {Hyper Frame Vision: a real-time vision system for 6-DOF object localization},
+  year      = {2002},
+  publisher = {{IEEE} Comput. Soc},
+  doi       = {10.1109/icpr.2002.1048005},
+  url       = {https://doi.org/10.1109/icpr.2002.1048005},
+}
+@inproceedings{Chaki2010,
+	doi = {10.1109/cicn.2010.79},
+	url = {https://doi.org/10.1109/cicn.2010.79},
+	year = {2010},
+	month = nov,
+	publisher = {{IEEE}},
+	author = {A Chaki and M Prashant and P Sen},
+	title = {A Comprehensive Market Analysis on Camera and Illumination Sensors for Image Processing and Machine Vision Applications},
+	booktitle = {2010 International Conference on Computational Intelligence and Communication Networks}
+}
+@inproceedings{Sage,
+	doi = {10.1109/ccst.1998.723792},
+	url = {https://doi.org/10.1109/ccst.1998.723792},
+	year={1998},
+	publisher = {{IEEE}},
+	author = {K. Sage and S. Young},
+	title = {Computer vision for security applications},
+	booktitle = {Proceedings {IEEE} 32nd Annual 1998 International Carnahan Conference on Security Technology (Cat. No.98CH36209)}
+}
+@inproceedings{Zubal2016,
+	doi = {10.1109/sami.2016.7423004},
+	url = {https://doi.org/10.1109/sami.2016.7423004},
+	year = {2016},
+	month = jan,
+	publisher = {{IEEE}},
+	author = {M. Zubal and T. Lojka and I. Zolotova},
+	title = {{IoT} gateway and industrial safety with computer vision},
+	booktitle = {2016 {IEEE} 14th International Symposium on Applied Machine Intelligence and Informatics ({SAMI})}
+}
+@article{Tan2015,
+	doi = {10.1109/tc.2014.2375218},
+	url = {https://doi.org/10.1109/tc.2014.2375218},
+	year = {2015},
+	month = sep,
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {64},
+	number = {9},
+	pages = {2519--2533},
+	author = {Zhiyuan Tan and Aruna Jamdagni and Xiangjian He and Priyadarsi Nanda and Ren Ping Liu and Jiankun Hu},
+	title = {Detection of Denial-of-Service Attacks Based on Computer Vision Techniques},
+	journal = {{IEEE} Transactions on Computers}
+}
+@inproceedings{4123793,
+	author={H. {Kawai} and H. {Kobayashi}},
+	booktitle={2006 IET Conference on Crime and Security},
+	title={Motion Detection with Networked Cellular Vision System for Preventing Crime and Security},
+	year={2006},
+	volume={},
+	number={},
+	pages={396-401}
+}
+@inproceedings{Cote2017,
+	doi = {10.1109/cvprw.2017.180},
+	url = {https://doi.org/10.1109/cvprw.2017.180},
+	year = {2017},
+	month = jul,
+	publisher = {{IEEE}},
+	author = {Melissa Cote and Alexandra Branzan Albu},
+	title = {Teaching Computer Vision and Its Societal Effects: A Look at Privacy and Security Issues from the Students' Perspective},
+	booktitle = {2017 {IEEE} Conference on Computer Vision and Pattern Recognition Workshops ({CVPRW})}
+}
+@inproceedings{Manendez,
+	doi = {10.1109/ccst.1999.797913},
+	url = {https://doi.org/10.1109/ccst.1999.797913},
+	publisher = {{IEEE}},
+	year = {1999},
+	author = {J.M. Manendez and L. Salgado and E. Rendon and N. Garcia},
+	title = {Motorway surveillance through stereo computer vision},
+	booktitle = {Proceedings {IEEE} 33rd Annual 1999 International Carnahan Conference on Security Technology (Cat. No.99CH36303)}
+}
+@inproceedings{Aydin2017,
+	doi = {10.1109/idap.2017.8090171},
+	url = {https://doi.org/10.1109/idap.2017.8090171},
+	year = {2017},
+	month = sep,
+	publisher = {{IEEE}},
+	author = {Ilhan Aydin and Nashwan Adnan Othman},
+	title = {A new {IoT} combined face detection of people by using computer vision for security application},
+	booktitle = {2017 International Artificial Intelligence and Data Processing Symposium ({IDAP})}
+}
+@inproceedings{Potgieter2012,
+	doi = {10.1109/issa.2012.6320450},
+	url = {https://doi.org/10.1109/issa.2012.6320450},
+	year = {2012},
+	month = aug,
+	publisher = {{IEEE}},
+	author = {Marius Potgieter and Johan Van Niekerk},
+	title = {The use of computer vision technologies to augment human monitoring of secure computing facilities},
+	booktitle = {2012 Information Security for South Africa}
+}
+@inproceedings{Harikrishnan2019,
+	doi = {10.1109/vitecon.2019.8899418},
+	url = {https://doi.org/10.1109/vitecon.2019.8899418},
+	year = {2019},
+	month = mar,
+	publisher = {{IEEE}},
+	author = {J. Harikrishnan and Arya Sudarsan and Aravind Sadashiv and Remya A.S. Ajai},
+	title = {Vision-Face Recognition Attendance Monitoring System for Surveillance using Deep Learning Technology and Computer Vision},
+	booktitle = {2019 International Conference on Vision Towards Emerging Trends in Communication and Networking ({ViTECoN})}
+}
+@inproceedings{Phonsri2015,
+	doi = {10.1109/cama.2015.7428185},
+	url = {https://doi.org/10.1109/cama.2015.7428185},
+	year = {2015},
+	month = nov,
+	publisher = {{IEEE}},
+	author = {Seksan Phonsri and Sankha Subhra Mukherjee and Mathini Sellathurai},
+	title = {Computer vision and bi-directional neural network for extraction of communications signal from noisy spectrogram},
+	booktitle = {2015 {IEEE} Conference on Antenna Measurements {\&} Applications ({CAMA})}
+}
+@inproceedings{Hadi2012,
+	doi = {10.1109/icsai.2012.6223431},
+	url = {https://doi.org/10.1109/icsai.2012.6223431},
+	year = {2012},
+	month = may,
+	publisher = {{IEEE}},
+	author = {Setiawan Hadi and Dian Nursantika and Ika Purwanti},
+	title = {Integrating computer vision technique to support Tsunami Early Warning System},
+	booktitle = {2012 International Conference on Systems and Informatics ({ICSAI}2012)}
+}
+@inproceedings{Pezoa2017,
+	doi = {10.1109/chilecon.2017.8229697},
+	url = {https://doi.org/10.1109/chilecon.2017.8229697},
+	year = {2017},
+	month = oct,
+	publisher = {{IEEE}},
+	author = {William Gutierrez Pezoa and Marcela Jamett Dominguez},
+	title = {Combined approach using artificial vision and neural networks for facial recognition},
+	booktitle = {2017 {CHILEAN} Conference on Electrical,  Electronics Engineering,  Information and Communication Technologies ({CHILECON})}
+}
+@inproceedings{Wallace,
+	doi = {10.1109/acv.1992.240333},
+	url = {https://doi.org/10.1109/acv.1992.240333},
+	publisher = {{IEEE} Comput. Soc. Press},
+	author = {R.S. Wallace and B.B. Bederson and E.L. Schwartz},
+	title = {Voice-bandwidth visual communication through logmaps: the Telecortex},
+	booktitle = {[1992] Proceedings {IEEE} Workshop on Applications of Computer Vision}
+}
+@inproceedings{Bohra2019,
+	doi = {10.1109/icssit46314.2019.8987908},
+	url = {https://doi.org/10.1109/icssit46314.2019.8987908},
+	year = {2019},
+	month = nov,
+	publisher = {{IEEE}},
+	author = {Tanuj Bohra and Shaunak Sompura and Krish Parekh and Purva Raut},
+	title = {Real-Time Two Way Communication System for Speech and Hearing Impaired Using Computer Vision and Deep Learning},
+	booktitle = {2019 International Conference on Smart Systems and Inventive Technology ({ICSSIT})}
+}
+@inproceedings{Hussain2016,
+	doi = {10.1109/iccsn.2016.7586608},
+	url = {https://doi.org/10.1109/iccsn.2016.7586608},
+	year = {2016},
+	month = jun,
+	publisher = {{IEEE}},
+	author = {Rafaqat Hussain and Hui Gao and Riaz Ahmed Shaikh and Shazia Parveen Soomro},
+	title = {Recognition based segmentation of connected characters in text based {CAPTCHAs}},
+	booktitle = {2016 8th {IEEE} International Conference on Communication Software and Networks ({ICCSN})}
+}
+@inproceedings{Metsiritrakul2016,
+	doi = {10.1109/jcsse.2016.7748913},
+	url = {https://doi.org/10.1109/jcsse.2016.7748913},
+	year = {2016},
+	month = jul,
+	publisher = {{IEEE}},
+	author = {Kawin Metsiritrakul and Nuttapol Puntavachirapan and Thananop Kobchaisawat and Sangsan Leelhapantu and Thanarat H. Chalidabhongse},
+	title = {{UP}2U: Program for raising awareness of phubbing problem with stimulating social interaction in public using augmented reality and computer vision},
+	booktitle = {2016 13th International Joint Conference on Computer Science and Software Engineering ({JCSSE})}
+}
+@inproceedings{Porat2010,
+	doi = {10.1109/icnit.2010.5508561},
+	url = {https://doi.org/10.1109/icnit.2010.5508561},
+	year = {2010},
+	month = jun,
+	publisher = {{IEEE}},
+	author = {Moshe Porat},
+	title = {A computational approach to multimedia communication networks},
+	booktitle = {2010 International Conference on Networking and Information Technology}
+}
+@inproceedings{Quiros2015,
+	doi = {10.1109/hnicem.2015.7393240},
+	url = {https://doi.org/10.1109/hnicem.2015.7393240},
+	year = {2015},
+	month = dec,
+	publisher = {{IEEE}},
+	author = {Ana Riza F. Quiros and Alexander Abad and Rhen Anjerome Bedruz and Aaron Christian Uy and Elmer P. Dadios},
+	title = {A genetic algorithm and artificial neural network-based approach for the machine vision of plate segmentation and character recognition},
+	booktitle = {2015 International Conference on Humanoid,  Nanotechnology,  Information Technology, Communication and Control,  Environment and Management ({HNICEM})}
+}
+@inproceedings{8639163,
+	author={D. {Güera} and E. J. {Delp}},
+	booktitle={2018 15th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+	title={Deepfake Video Detection Using Recurrent Neural Networks},
+	year={2018},
+	volume={},
+	number={},
+	pages={1-6}
+}
+@inproceedings{Lyu2020,
+	doi = {10.1109/icmew46912.2020.9105991},
+	url = {https://doi.org/10.1109/icmew46912.2020.9105991},
+	year = {2020},
+	month = jul,
+	publisher = {{IEEE}},
+	author = {Siwei Lyu},
+	title = {Deepfake Detection: Current Challenges and Next Steps},
+	booktitle = {2020 {IEEE} International Conference on Multimedia {\&} Expo Workshops ({ICMEW})}
+}
+
+@Article{,
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
