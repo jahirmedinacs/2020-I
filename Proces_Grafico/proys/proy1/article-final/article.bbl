@@ -1,0 +1,239 @@
+\begin{thebibliography}{}
+
+\bibitem[Alam, 2016]{alam2016suis}
+Alam, S. (2016).
+\newblock Suis: An online graphical signature-based user identification system.
+
+\bibitem[Aneja and Nießner, 2020]{aneja2020generalized}
+Aneja, S. and Nießner, M. (2020).
+\newblock Generalized zero and few-shot transfer for facial forgery detection.
+
+\bibitem[Aydin and Othman, 2017]{Aydin2017}
+Aydin, I. and Othman, N.~A. (2017).
+\newblock A new {IoT} combined face detection of people by using computer
+  vision for security application.
+\newblock In {\em 2017 International Artificial Intelligence and Data
+  Processing Symposium ({IDAP})}. {IEEE}.
+
+\bibitem[Bian et~al., 2020]{bian2020ensei}
+Bian, S., Wang, T., Hiromoto, M., Shi, Y., and Sato, T. (2020).
+\newblock Ensei: Efficient secure inference via frequency-domain homomorphic
+  convolution for privacy-preserving visual recognition.
+
+\bibitem[Bohra et~al., 2019]{Bohra2019}
+Bohra, T., Sompura, S., Parekh, K., and Raut, P. (2019).
+\newblock Real-time two way communication system for speech and hearing
+  impaired using computer vision and deep learning.
+\newblock In {\em 2019 International Conference on Smart Systems and Inventive
+  Technology ({ICSSIT})}. {IEEE}.
+
+\bibitem[Chaki et~al., 2010]{Chaki2010}
+Chaki, A., Prashant, M., and Sen, P. (2010).
+\newblock A comprehensive market analysis on camera and illumination sensors
+  for image processing and machine vision applications.
+\newblock In {\em 2010 International Conference on Computational Intelligence
+  and Communication Networks}. {IEEE}.
+
+\bibitem[Christensen et~al., 2019]{christensen2019batvision}
+Christensen, J.~H., Hornauer, S., and Yu, S. (2019).
+\newblock Batvision: Learning to see 3d spatial layout with two ears.
+
+\bibitem[Cote and Albu, 2017]{Cote2017}
+Cote, M. and Albu, A.~B. (2017).
+\newblock Teaching computer vision and its societal effects: A look at privacy
+  and security issues from the students' perspective.
+\newblock In {\em 2017 {IEEE} Conference on Computer Vision and Pattern
+  Recognition Workshops ({CVPRW})}. {IEEE}.
+
+\bibitem[Davis et~al., 2014]{Davis2014VisualMic}
+Davis, A., Rubinstein, M., Wadhwa, N., Mysore, G., Durand, F., and Freeman,
+  W.~T. (2014).
+\newblock The visual microphone: Passive recovery of sound from video.
+\newblock {\em ACM Transactions on Graphics (Proc. SIGGRAPH)},
+  33(4):79:1--79:10.
+
+\bibitem[de~Lima et~al., 2020]{lima2020deepfake}
+de~Lima, O., Franklin, S., Basu, S., Karwoski, B., and George, A. (2020).
+\newblock Deepfake detection using spatiotemporal convolutional networks.
+
+\bibitem[Fox et~al., 2020]{fox2020videoforensicshq}
+Fox, G., Liu, W., Kim, H., Seidel, H.-P., Elgharib, M., and Theobalt, C.
+  (2020).
+\newblock Videoforensicshq: Detecting high-quality manipulated face videos.
+
+\bibitem[Giudice et~al., 2020]{giudice2020single}
+Giudice, O., Litrico, M., and Battiato, S. (2020).
+\newblock Single architecture and multiple task deep neural network for altered
+  fingerprint analysis.
+
+\bibitem[Goldenfein, 2019]{10.1145/3287560.3287568}
+Goldenfein, J. (2019).
+\newblock The profiling potential of computer vision and the challenge of
+  computational empiricism.
+\newblock In {\em Proceedings of the Conference on Fairness, Accountability,
+  and Transparency}, FAT* ’19, page 110–119, New York, NY, USA. Association
+  for Computing Machinery.
+
+\bibitem[{Güera} and {Delp}, 2018]{8639163}
+{Güera}, D. and {Delp}, E.~J. (2018).
+\newblock Deepfake video detection using recurrent neural networks.
+\newblock In {\em 2018 15th IEEE International Conference on Advanced Video and
+  Signal Based Surveillance (AVSS)}, pages 1--6.
+
+\bibitem[Harikrishnan et~al., 2019]{Harikrishnan2019}
+Harikrishnan, J., Sudarsan, A., Sadashiv, A., and Ajai, R.~A. (2019).
+\newblock Vision-face recognition attendance monitoring system for surveillance
+  using deep learning technology and computer vision.
+\newblock In {\em 2019 International Conference on Vision Towards Emerging
+  Trends in Communication and Networking ({ViTECoN})}. {IEEE}.
+
+\bibitem[Huang et~al., 2020]{huang2020fakepolisher}
+Huang, Y., Juefei-Xu, F., Wang, R., Guo, Q., Ma, L., Xie, X., Li, J., Miao, W.,
+  Liu, Y., and Pu, G. (2020).
+\newblock Fakepolisher: Making deepfakes more detection-evasive by shallow
+  reconstruction.
+
+\bibitem[Hussain et~al., 2016]{Hussain2016}
+Hussain, R., Gao, H., Shaikh, R.~A., and Soomro, S.~P. (2016).
+\newblock Recognition based segmentation of connected characters in text based
+  {CAPTCHAs}.
+\newblock In {\em 2016 8th {IEEE} International Conference on Communication
+  Software and Networks ({ICCSN})}. {IEEE}.
+
+\bibitem[Lyu, 2020]{Lyu2020}
+Lyu, S. (2020).
+\newblock Deepfake detection: Current challenges and next steps.
+\newblock In {\em 2020 {IEEE} International Conference on Multimedia {\&} Expo
+  Workshops ({ICMEW})}. {IEEE}.
+
+\bibitem[Maksutov et~al., 2020]{Maksutov2020}
+Maksutov, A.~A., Morozov, V.~O., Lavrenov, A.~A., and Smirnov, A.~S. (2020).
+\newblock Methods of deepfake detection based on machine learning.
+\newblock In {\em 2020 {IEEE} Conference of Russian Young Researchers in
+  Electrical and Electronic Engineering ({EIConRus})}. {IEEE}.
+
+\bibitem[Manendez et~al., 1999]{Manendez}
+Manendez, J., Salgado, L., Rendon, E., and Garcia, N. (1999).
+\newblock Motorway surveillance through stereo computer vision.
+\newblock In {\em Proceedings {IEEE} 33rd Annual 1999 International Carnahan
+  Conference on Security Technology (Cat. No.99CH36303)}. {IEEE}.
+
+\bibitem[Martínez-Mascorro et~al., 2020]{martnezmascorro2020detecting}
+Martínez-Mascorro, G.~A., Ortiz-Bayliss, J.~C., and Terashima-Marín, H.
+  (2020).
+\newblock Detecting suspicious behavior: How to deal with visual similarity
+  through neural networks.
+
+\bibitem[Othman and Aydin, 2017]{Othman2017}
+Othman, N.~A. and Aydin, I. (2017).
+\newblock A new {IoT} combined body detection of people by using computer
+  vision for security application.
+\newblock In {\em 2017 9th International Conference on Computational
+  Intelligence and Communication Networks ({CICN})}. {IEEE}.
+
+\bibitem[Pezoa and Dominguez, 2017]{Pezoa2017}
+Pezoa, W.~G. and Dominguez, M.~J. (2017).
+\newblock Combined approach using artificial vision and neural networks for
+  facial recognition.
+\newblock In {\em 2017 {CHILEAN} Conference on Electrical, Electronics
+  Engineering, Information and Communication Technologies ({CHILECON})}.
+  {IEEE}.
+
+\bibitem[Phonsri et~al., 2015]{Phonsri2015}
+Phonsri, S., Mukherjee, S.~S., and Sellathurai, M. (2015).
+\newblock Computer vision and bi-directional neural network for extraction of
+  communications signal from noisy spectrogram.
+\newblock In {\em 2015 {IEEE} Conference on Antenna Measurements {\&}
+  Applications ({CAMA})}. {IEEE}.
+
+\bibitem[Porat, 2010]{Porat2010}
+Porat, M. (2010).
+\newblock A computational approach to multimedia communication networks.
+\newblock In {\em 2010 International Conference on Networking and Information
+  Technology}. {IEEE}.
+
+\bibitem[Potgieter and Niekerk, 2012]{Potgieter2012}
+Potgieter, M. and Niekerk, J.~V. (2012).
+\newblock The use of computer vision technologies to augment human monitoring
+  of secure computing facilities.
+\newblock In {\em 2012 Information Security for South Africa}. {IEEE}.
+
+\bibitem[Qian et~al., 2019]{qian2019stripebased}
+Qian, J., Jiang, W., Luo, H., and Yu, H. (2019).
+\newblock Stripe-based and attribute-aware network: A two-branch deep model for
+  vehicle re-identification.
+
+\bibitem[Quiros et~al., 2015]{Quiros2015}
+Quiros, A. R.~F., Abad, A., Bedruz, R.~A., Uy, A.~C., and Dadios, E.~P. (2015).
+\newblock A genetic algorithm and artificial neural network-based approach for
+  the machine vision of plate segmentation and character recognition.
+\newblock In {\em 2015 International Conference on Humanoid, Nanotechnology,
+  Information Technology, Communication and Control, Environment and Management
+  ({HNICEM})}. {IEEE}.
+
+\bibitem[S et~al., 2020]{s2020iot}
+S, S., Yamuna, S., and George, S.~N. (2020).
+\newblock An iot based active building surveillance system using raspberry pi
+  and nodemcu.
+
+\bibitem[Sage and Young, 1998]{Sage}
+Sage, K. and Young, S. (1998).
+\newblock Computer vision for security applications.
+\newblock In {\em Proceedings {IEEE} 32nd Annual 1998 International Carnahan
+  Conference on Security Technology (Cat. No.98CH36209)}. {IEEE}.
+
+\bibitem[Schindler et~al., 2020]{alex2020multimodal}
+Schindler, A., Lindley, A., Jalali, A., Boyer, M., Gordea, S., and King, R.
+  (2020).
+\newblock Multi-modal video forensic platform for investigating post-terrorist
+  attack scenarios.
+
+\bibitem[Spinoulas et~al., 2020]{spinoulas2020multimodal}
+Spinoulas, L., Mirzaalian, H., Hussein, M., and AbdAlmageed, W. (2020).
+\newblock Multi-modal fingerprint presentation attack detection: Evaluation on
+  a new dataset.
+
+\bibitem[Sumi et~al., 2002]{Sumi}
+Sumi, Y., Ishiyama, Y., and Tomita, F. (2002).
+\newblock Hyper frame vision: a real-time vision system for 6-dof object
+  localization.
+\newblock In {\em Object recognition supported by user interaction for service
+  robots}. {IEEE} Comput. Soc.
+
+\bibitem[Tan et~al., 2015]{Tan2015}
+Tan, Z., Jamdagni, A., He, X., Nanda, P., Liu, R.~P., and Hu, J. (2015).
+\newblock Detection of denial-of-service attacks based on computer vision
+  techniques.
+\newblock {\em {IEEE} Transactions on Computers}, 64(9):2519--2533.
+
+\bibitem[Tian et~al., 2020]{tian2020applying}
+Tian, Y., Pan, G., and Alouini, M.-S. (2020).
+\newblock Applying deep-learning-based computer vision to wireless
+  communications: Methodologies, opportunities, and challenges.
+
+\bibitem[Tran, 2002]{Tran2002}
+Tran, N. (2002).
+\newblock Hiding functions and computational security of image watermarking
+  systems.
+\newblock In {\em Proceedings 15th {IEEE} Computer Security Foundations
+  Workshop. {CSFW}-15}. {IEEE} Comput. Soc.
+
+\bibitem[Yoshimoto et~al., 2004]{Yoshimoto2004}
+Yoshimoto, H., Date, N., Arita, D., and Taniguchi, R. (2004).
+\newblock Confidence-driven architecture for real-time vision processing and
+  its application to efficient vision-based human motion sensing.
+\newblock In {\em Proceedings of the 17th International Conference on Pattern
+  Recognition, 2004. {ICPR} 2004.} {IEEE}.
+
+\bibitem[Yu et~al., 2019]{Yu_2019}
+Yu, C.-H., Gao, F., Liu, C., Huynh, D., Reynolds, M., and Wang, J. (2019).
+\newblock Quantum algorithm for visual tracking.
+\newblock {\em Physical Review A}, 99(2).
+
+\bibitem[Zubal et~al., 2016]{Zubal2016}
+Zubal, M., Lojka, T., and Zolotova, I. (2016).
+\newblock {IoT} gateway and industrial safety with computer vision.
+\newblock In {\em 2016 {IEEE} 14th International Symposium on Applied Machine
+  Intelligence and Informatics ({SAMI})}. {IEEE}.
+
+\end{thebibliography}
