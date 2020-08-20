@@ -1,0 +1,11 @@
+SE:
+cuadrado
+cruz
+linea vertical
+linea horizontal
+
+Falta reflejar la imagen
+
+
+
+(ARRIBA-ABAJO, DERECHA-IZQUIERDA)
