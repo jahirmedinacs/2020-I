@@ -31,5 +31,6 @@
 [sci-hub.tw](https://sci-hub.tw/https://www.sciencedirect.com/science/article/abs/pii/S0031320399000552)
 
 [www.mathworks.com](https://www.mathworks.com/matlabcentral/fileexchange/40856-bernsen-local-image-thresholding)
+
 [github.com](https://github.com/caiosba/binarization/blob/master/main.cpp)
 
