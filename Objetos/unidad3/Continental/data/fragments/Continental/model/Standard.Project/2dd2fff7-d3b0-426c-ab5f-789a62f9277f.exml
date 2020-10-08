@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Continental" version="4">
+  <OBJECT>
+    <ID name="Continental" mc="Standard.Project" uid="2dd2fff7-d3b0-426c-ab5f-789a62f9277f"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Continental]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="VentaOnlinev1" mc="Standard.Package" uid="fba6e828-afe0-4bc6-bbe7-bd0759a57646"/>
+        <COMPID name="VentaOnlinev2" mc="Standard.Package" uid="39a5751d-86fd-439f-948a-55235bbd3028"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Continental" mc="Infrastructure.DiagramSet" uid="4644840f-eef3-46d4-8d19-f08fb8677e3d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

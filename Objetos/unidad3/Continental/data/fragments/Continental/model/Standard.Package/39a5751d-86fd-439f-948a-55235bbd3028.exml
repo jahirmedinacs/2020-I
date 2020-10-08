@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VentaOnlinev2" version="4">
+  <OBJECT>
+    <ID name="VentaOnlinev2" mc="Standard.Package" uid="39a5751d-86fd-439f-948a-55235bbd3028"/>
+    <PID name="Continental" mc="Standard.Project" uid="2dd2fff7-d3b0-426c-ab5f-789a62f9277f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VentaOnlinev2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Persona" mc="Standard.Actor" uid="7346c28a-a978-497d-97f6-00d8be4501b0"/>
+        <COMPID name="Escoger tipo de compra" mc="Standard.UseCase" uid="14a82903-650a-4587-820c-ae872e2e87ba"/>
+        <COMPID name="Modificar Carrito" mc="Standard.UseCase" uid="0fa2b4a8-bd06-4027-92d6-a47d68c79a1e"/>
+        <COMPID name="Navegar Catalogo" mc="Standard.UseCase" uid="975196eb-2062-404e-b495-cef832bfc9f0"/>
+        <COMPID name="Generar Catalogo" mc="Standard.UseCase" uid="6d901c09-3a7c-4a2d-819f-899a5075fcd8"/>
+        <COMPID name="Crear Carrito" mc="Standard.UseCase" uid="ae3749d3-67b4-478f-8e54-003be904d5af"/>
+        <COMPID name="Vaciar Carrito" mc="Standard.UseCase" uid="ecffd2f9-1bef-44f9-a635-12ca7beb1f1d"/>
+        <COMPID name="Actualizar Carrito" mc="Standard.UseCase" uid="22ee8205-9d15-4c99-8b04-40b4022f9fb5"/>
+        <COMPID name="Mostrar Ocultos" mc="Standard.UseCase" uid="d13a79f9-bb91-4dc6-92d0-3d0d79b5592e"/>
+        <COMPID name="Actualizar Tipo de Compra" mc="Standard.UseCase" uid="6b7e6399-89a1-4624-9f2b-255bce2ef1e4"/>
+        <COMPID name="Checkout" mc="Standard.UseCase" uid="4fe6a335-146a-492c-861f-6b07cf1009ab"/>
+        <COMPID name="Escoger Metodo de Pago" mc="Standard.UseCase" uid="7c1e6279-e4f1-4473-84e2-b57b01096405"/>
+        <COMPID name="Aplicar Descuento" mc="Standard.UseCase" uid="8f1a940b-e8e8-40d1-bc25-798587e4e94b"/>
+        <COMPID name="Solicitar Descuento" mc="Standard.UseCase" uid="be03efb9-899a-4414-a007-31c2b4f21780"/>
+        <COMPID name="Identificar Persona" mc="Standard.UseCase" uid="bd476523-e05b-4da8-8387-b23e25f08bdf"/>
+        <COMPID name="Registro Temporal" mc="Standard.UseCase" uid="f745ce56-daa3-4266-ae19-a16370ec1c15"/>
+        <COMPID name="Iniciar Sesion" mc="Standard.UseCase" uid="00cfe133-d7d8-49d7-840d-6e8144736107"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="VentaOnlinev2 Use Case diagram" mc="Standard.UseCaseDiagram" uid="59140e5d-c656-4a69-9170-2777e65347ce"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

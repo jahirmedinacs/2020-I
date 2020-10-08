@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VentaOnlinev1" version="4">
+  <OBJECT>
+    <ID name="VentaOnlinev1" mc="Standard.Package" uid="fba6e828-afe0-4bc6-bbe7-bd0759a57646"/>
+    <PID name="Continental" mc="Standard.Project" uid="2dd2fff7-d3b0-426c-ab5f-789a62f9277f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VentaOnlinev1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="e9782667-9115-4bb2-8d27-fe29ca144964"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Persona Natural" mc="Standard.Actor" uid="4927434c-d103-4bc2-99d5-dc24fd2f7518"/>
+        <COMPID name="Persona Juridica" mc="Standard.Actor" uid="90a0b0eb-d33e-420a-bdb9-bd94a7bad7ef"/>
+        <COMPID name="Registrar" mc="Standard.UseCase" uid="a124392b-ae3f-4fa3-9676-691a1c748a3f"/>
+        <COMPID name="Registrar Temporalmente" mc="Standard.UseCase" uid="4104eef6-125e-4098-a926-b0e23f3e4844"/>
+        <COMPID name="Visitar Catalogo" mc="Standard.UseCase" uid="598dd6da-9e54-492a-b29a-5e342ebed7f2"/>
+        <COMPID name="Visitar Catalago - Especial" mc="Standard.UseCase" uid="eda98886-6ec0-4b72-8941-3c8fc6a7611b"/>
+        <COMPID name="Comprar" mc="Standard.UseCase" uid="e0cdc948-315c-4e0c-b799-7fc15df8c714"/>
+        <COMPID name="Iniciar Sesion" mc="Standard.UseCase" uid="094e9b19-a30d-4dc2-bdae-2665d51512bc"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="248614e5-d70a-4b73-a4a8-26dfd2d8a2cf"/>
+        <COMPID name="Carrito" mc="Standard.Class" uid="5ed4d652-42f9-4053-bb8d-240ba0c3663e"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="5dca4550-9a70-41a4-982d-7785910cff24"/>
+        <COMPID name="Proforma" mc="Standard.Class" uid="39f42814-b0dd-4ddf-9afd-45441f078c6c"/>
+        <COMPID name="Factura" mc="Standard.Class" uid="5328dae7-c688-4976-b483-3223ab450d27"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="continental Use Case diagram" mc="Standard.UseCaseDiagram" uid="1904c428-e997-43f6-a6e6-21462b941fb6"/>
+        <COMPID name="continental Class diagram" mc="Standard.ClassDiagram" uid="2d729719-df88-4b42-902c-1dd0700fae0d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
